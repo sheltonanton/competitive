@@ -46,6 +46,11 @@ function getAdjacentList(edges) {
     return [nodes, adjacentList];
 }
 
-function dfs(edges) {
-    let [nodes, adjacentList] = get
+function checkNegativeCycle(edges) {
+    let [nodes, adjacentList] = getAdjacentList(edges);
+    function dfs(node) {
+
+    }
+
+    
 }
